@@ -271,7 +271,8 @@ header {
     background-color: var(--blanco);
     display: flex;
     position:absolute;
-    overflow: hidden;    
+    overflow: hidden;  
+    border: 1px solid var(--secundario);  
 }
 
 .work-card-img img {
@@ -308,7 +309,7 @@ header {
     transition: all .2s;
     opacity: 0;
     position:absolute;
-    background-color: rgba(250, 250, 250, 0.5);
+    background-color: rgba(201, 232, 250, .8);
     backdrop-filter: blur(5px);
 }
 
