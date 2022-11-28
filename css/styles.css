@@ -139,34 +139,6 @@ header {
     }
 }
 
-/* logo 3d */
-
-.logo3d {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.frame {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.marca-agua {
-    position: absolute;
-    background-color: var(--blanco);
-    height: 40px;  
-    width: 140px;
-    z-index: 6;
-    right: 20px;
-    bottom: 20px;
-}
-
 /* mensaje construccion */
 
 .mensaje {
@@ -275,6 +247,51 @@ header {
     .container-skills{
         width: 60%;
     }
+}
+
+/* logo 3d */
+
+.logo3d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje-smartphone{
+    position: absolute;
+    margin: 0 auto;
+    top: 40px;
+    background-color: var(--negro);
+    color: var(--blanco);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-family: boldness;
+}
+
+@media (min-width:768px){ 
+    .mensaje-smartphone {
+        display: none;
+    }
+}
+
+.marca-agua {
+    position: absolute;
+    background-color: var(--blanco);
+    height: 40px;  
+    width: 140px;
+    z-index: 6;
+    right: 18px;
+    bottom: 18px;
 }
 
 
